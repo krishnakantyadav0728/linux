@@ -1,19 +1,18 @@
-**Linux Firewall**
+#Linux Firewall#
 ===============
-# What is a firewall
+## What is a firewall
 
 A firewall is a network security system that monitors and controls incoming and outgoing network
-traffic based on the rules defined
+traffic based on the rules defined.
 
-basically used to determine and block untrusted network to access out system
+basically used to determine and block untrusted network to access out system.
 
-types of firewall
+Types of firewall
 
-1.software based
-running on operating system
-
-2.hardware based 
-A dedicated appliance with firewall software between two different networks (mostly used by network team)
++ software based
+running on operating system.
++ hardware based 
+A dedicated appliance with firewall software between two different networks (mostly used by network team).
 
 ==============
 Tools on linux for managing firewall
