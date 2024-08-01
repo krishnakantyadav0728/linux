@@ -1,6 +1,6 @@
 **Linux Firewall**
 ===============
-What is a firewall
++What is a firewall+
 A firewall is a network security system that monitors and controls incoming and outgoing network
 traffic based on the rules defined
 
