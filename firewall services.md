@@ -17,9 +17,9 @@ running on operating system.
 A dedicated appliance with firewall software between two different networks (mostly used by network team).
 
 ==============
-Tools on linux for managing firewall
-1.iptables
-2.firewalld - newer version of centos, redhat. fedora etc.
+- Tools on linux for managing firewall
+- iptables
+- firewalld - newer version of centos, redhat. fedora etc.
 
 ==========
 listing adding deleting firewalld rules
