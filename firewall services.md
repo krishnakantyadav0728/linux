@@ -22,16 +22,18 @@ A dedicated appliance with firewall software between two different networks (mos
 - firewalld - newer version of centos, redhat. fedora etc.
 
 ==========
-listing adding deleting firewalld rules
+
+listing adding deleting firewalld rules.
 
 ===========
-check if firewalld service is installed 
-#rpm -qa | grep firewalld
 
-#systemctl start/enable firewalld
-#systemctl stop/disable firewalld
-#systemctl status firewalld
-#systemctl restart firewalld
+### check if firewalld service is installed 
+#rpm -qa | grep firewalld.
+
+#systemctl start/enable firewalld.
+#systemctl stop/disable firewalld.
+#systemctl status firewalld.
+#systemctl restart firewalld.
 
 
 =============
