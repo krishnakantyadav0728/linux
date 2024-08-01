@@ -120,7 +120,7 @@ or
  
 ### To block outgoing traffic to a ip or URL
 
-#### example:
+#### example
 
 	#firewall-cmd --direct --add-rule ipv4 filter OUTPUT 0 -d 157.240.242.35 -j DROP.
 	
