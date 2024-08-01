@@ -9,9 +9,9 @@ basically used to determine and block untrusted network to access out system.
 
 Types of firewall
 
-+ software based
++ software based .
 running on operating system.
-+ hardware based 
++ hardware based .
 A dedicated appliance with firewall software between two different networks (mostly used by network team).
 
 ==============
