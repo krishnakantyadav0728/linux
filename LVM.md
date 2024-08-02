@@ -35,7 +35,7 @@ Logical volume manager allow disk to be combined together.
 	 
 	 #fdisk -l 
 	 
-	##### partition using 'fdisk'.
+	#### partition using 'fdisk'.
 	 
 	 steps:
 	 
