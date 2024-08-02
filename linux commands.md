@@ -1,78 +1,78 @@
-How to display name of current logged in user?
+# How to display name of current logged in user?
 #whoami
 
-how to check system date or time ?
+# how to check system date or time ?
 #date 
 #date %D
 
-how to display files and directory present in current location
+# how to display files and directory present in current location
 #ls
 #ls -lt
 
-how to clear the termnal
+# how to clear the termnal
 #clear
 #clt+l
 
-how to display content of a file on terminal
+# how to display content of a file on terminal
 #cat (file name)
 
-how to read a file and search for a word
+# how to read a file and search for a word
 #less (file)
 
 # How to read a file and search for a word
 #more (file)
 
-how to create file 
+# how to create file 
 #touch
 
-how to delete 
+# how to delete 
 rm (file)
 
-how to edit a file in linux
+# how to edit a file in linux
 #vi (file)
 #nano(file)
 
-how to create a directory
+# how to create a directory
 mkdir (newfolde)
  
-how to delete a directory
+# how to delete a directory
 rmdir (dirname)
 
 
-how to change path or move to another folder in linux
+# how to change path or move to another folder in linux
 #cd /path/folder
 #cd ..
 
-how to check syntax and options available for a command 
+# how to check syntax and options available for a command 
 #help
 ex ls --help
    ls --help | more
 
-how to read or get mor info about a command
+# how to read or get mor info about a command
 #man means -manuall
 #ex  ls man 
 
-how to check which executable is using for a command
+# how to check which executable is using for a command
 #which
 #ex:which ls
 
-how to use calculater in linux
+# how to use calculater in linux
 #bc
 
-how to check calender of last year in linux
+# how to check calender of last year in linux
 #cal
 
-how to check how  long server has been running in linux
+# how to check how  long server has been running in linux
 #uptime 
 
 
-how to record your activity on terminal in a file
+# how to record your activity on terminal in a file
 #script
 clt +d--> to exit the script terminal
 and it will create one file defalt name of file typescript
 
 
-How to create a file a short-cut of a long command in linux
+# How to create a file a short-cut of a long command in linux
 #alias l="ls -ltr"
 
 ex ls -ltr
