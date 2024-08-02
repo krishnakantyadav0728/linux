@@ -35,13 +35,13 @@ Logical volume manager allow disk to be combined together.
 	 
 	 #fdisk -l 
 	 
-	#### partition using 'fdisk'.
+  #### partition using 'fdisk'.
 	 
 	 steps:
 	 
 	 #fdisk /dev/sdb
 	 
-	 - choose n to create new .
+	 - choose n to create new 
 	 
 	 - choose p to create a primary partition.
 	 
