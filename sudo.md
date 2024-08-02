@@ -1,9 +1,14 @@
 # Topic.
 *how to swith a user
+
 *how to exit of current user
+
 *what is the use of sudo
+
 *how to provide a sudo access to a user
+
 *what is the visudo
+
 *working with sudoers file
 
 ### how to change a user
