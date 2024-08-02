@@ -53,6 +53,62 @@ Update : keep the old packages, we can rollback.
  
  
  (v-verbose, h for hash to show progress).
+
+  - To quary all the installed packages.
+ 
+ #rpm -qa
+ 
+ - To quary all the installed packages if we need any specefic package.
+ 
+ #rpm -qa | grep ksh 
+ 
+ - More info about the package.
+ 
+ #rpm -qi <package_name>
+ 
+ - Info about the config files for package.
+ 
+ #rpm -qc <package_name>
+ 
+ #### DNF dendified yum.
+ 
+ #sudo dnf list available
+ 
+ #sudo dnf list install
+ 
+ #sudo dnf update/upgrade 
+ 
+ #sudo dnf install package.name
+ 
+ #sudo dnf remove package.name 
+ 
+ #sudo dnf info package.name
+ 
+ #sudo dnf search package
+ 
+ example:
+ 
+	#dnf list available | wc -l
+	
+	#dnf list installed | grep ksh
+	
+	#dnf info ksh
+	
+	#dnf install http
+	
+	#dnf remove http
+	
+	APT.
+	
+	#apt install package_name
+	
+	#apt remove package_name
+	
+	#apt autoremove (to remove the dependencies)
+	
+	#apt update (to update the repo)
+	
+	#apt-cach search apache
  
  
  
