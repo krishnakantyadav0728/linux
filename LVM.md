@@ -37,30 +37,30 @@ Logical volume manager allow disk to be combined together.
 	 
   #### partition using 'fdisk'.
 	 
-	 steps:
+ steps:
 	 
-	 #fdisk /dev/sdb
+    #fdisk /dev/sdb
 	 
-	 - choose n to create new 
+- choose n to create new 
+
+- choose p to create a primary partition.
 	 
-	 - choose p to create a primary partition.
+- choose which number of partition we need to create.
 	 
-	 - choose which number of partition we need to create.
+- press enter twice to use full sapce of the disk.
 	 
-	 - press enter twice to use full sapce of the disk.
+- we need to change a type of newly created partition type t.
 	 
-	 - we need to change a type of newly created partition type t.
+- which number of partition need to change  choose the number which we created its. 1
 	 
-	 - which number of partition need to change  choose the number which we created its. 1
+- here we need to change the type we need to create LVM so we going to use the type 
+  code  of LVM as 8e , if  we do not know the type code press L to list all type codes.
 	 
-	 - here we need to change the type we need to create LVM so we going to use the type 
-	   code  of LVM as 8e , if  we do not know the type code press L to list all type codes.
+- print the partition what we created to just confirm.
+
+- here we  can see the ID as we linux LVM.
 	 
-	 - print the partition what we created to just confirm.
-	 
-	 - here we  can see the ID as we linux LVM.
-	 
-	 - write the changes and exit fdisk.
+- write the changes and exit fdisk.
 	 
 	 
 	m = for help.
@@ -69,7 +69,7 @@ Logical volume manager allow disk to be combined together.
 	
 	p = for primary
 	
-	#how to change partition type 
+#how to change partition type 
 	
 	t = for type 
 	
