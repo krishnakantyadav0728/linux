@@ -22,7 +22,7 @@ example:
 
 - why we are enable the service
 
--Enabling a service causes the system to start the service upon reboot or whenever a computer starts up 
+- Enabling a service causes the system to start the service upon reboot or whenever a computer starts up 
 
 - the enable subcommand does not start the particular service immediately
 
