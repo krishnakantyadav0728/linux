@@ -1,4 +1,44 @@
-### What is the different between yum update and yum upgrade
+
+# linux package management
+
+## Package management
+
+	- Installing
+	- Upgrading
+	- Deleting
+	- View Package Info
+	- Packages config
+	
+## Manage software using YUM/DNF and RPM for your red hat-based linux systems
+   like centos
+   
+   APT for Debian based, Ubuntu, Kali Linux etc
+   
+## Yum yellow-dog updater modified
+
+	- Yum is the primary package management tool for redhat 
+ 
+	- yum performs dependency resolution when installing updating and removing
+	  software packages
+	  
+	- yum can manage packages from installed repositories in the system or from rpm packages
+
+## YUM Commands 
+
+	- How to install and remove a package
+	
+	#yum install ngninx -y 
+ 
+	#yum remove ngninx
+	
+	- How to upgrade or update a package
+	
+	#yum upgrade package
+ 
+	#yum update package
+	
+	
+	### What is the different between yum update and yum upgrade
 
 Upgrade : will delete the old packages.
 
