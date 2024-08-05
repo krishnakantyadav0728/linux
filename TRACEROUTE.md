@@ -6,6 +6,10 @@ Tracks the route packets on how the data travels on internet from your computer 
 
 The only required parameter is the name or ip address of the destination host.
 
+To install traceroute.
+
+#yum install traceroute
+
 $traceroute IP
 
 - Default packet length is 60byte to change it
