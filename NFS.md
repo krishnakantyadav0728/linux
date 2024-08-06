@@ -39,3 +39,38 @@ We need to setup in two parts
 #/apps <IP_allow>(rw, sync, no_root_squash)
 
 - exportfs -rv
+
+### Clinet side Configuration.
+
+- To install NFS Packages
+
+#yum install nfs-utils rpcbind 
+
+- Enable and start the rpcbind service 
+
+#systemctl enable rpcbind
+
+#systemctl start rpcbind
+
+#systemctl status rpcbind
+
+- To stop the firewall
+
+#systemctl stop firewall / iptable
+
+- show mount from NFS Server
+
+#showmount -e <IP of server side>
+
+- To check ip 
+
+#ifconfig
+
+- Create a mount point (a directory)
+
+#mkdir /mnt/apps
+
+- Mount the NFS file system
+
+#mount <IP_server>:/server/apps /mnt/apps
+
